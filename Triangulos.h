@@ -23,5 +23,6 @@ class Triangulos{
     double calculaArea();
     double calcularHipotenusa();
 
-
+    static Triangulos compara(Triangulos, Triangulos);
 };
+

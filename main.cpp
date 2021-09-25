@@ -45,5 +45,11 @@ int main() {
   cout << "Área: " << exemplo4.calculaArea() << endl;  
   cout << "Hipotenusa :" << exemplo4.getHipotenusa()<< endl;
 
+//Exemplo 5: Comparando Triangulos
+  cout << endl << "Exemplo 5:" << endl;
+  cout << "Área 1: " << exemplo1.calculaArea() << endl;  
+  cout << "Área 2: " << exemplo2.calculaArea() << endl;  
+  cout << "Maior Área: " << Triangulos::compara(exemplo1, exemplo2).calculaArea() << endl;  
+
       
 }

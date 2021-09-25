@@ -66,3 +66,11 @@ double Triangulos::calculaArea(){
 double Triangulos::calcularHipotenusa(){
   return sqrt(pow(getCatetoA(),2) + pow(getCatetoB(),2));
 }
+
+Triangulos Triangulos::compara(Triangulos t1, Triangulos t2){
+  if(t1.calculaArea() > t2.calculaArea()){
+    return t1;
+  }else{
+    return t2;
+  }
+}
